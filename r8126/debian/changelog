@@ -1,0 +1,6 @@
+r8126-dkms (10.016.00-1) unstable; urgency=medium
+
+  * Initial release for Sky1 Linux
+  * Realtek RTL8126 5GbE driver version 10.016.00
+
+ -- Entrpi <entrpi@proton.me>  Thu, 12 Dec 2025 21:30:00 +0800

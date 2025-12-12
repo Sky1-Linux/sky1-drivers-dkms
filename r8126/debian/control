@@ -1,0 +1,16 @@
+Source: r8126-dkms
+Section: kernel
+Priority: optional
+Maintainer: Entrpi <entrpi@proton.me>
+Build-Depends: debhelper-compat (= 13), dkms
+Standards-Version: 4.6.2
+Homepage: https://github.com/sky1-linux/r8126-dkms
+
+Package: r8126-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms
+Description: Realtek RTL8126 5GbE ethernet driver (DKMS)
+ This package provides the Realtek r8126 driver for RTL8126 5 Gigabit
+ Ethernet controllers using DKMS to build for any installed kernel.
+ .
+ The RTL8126 is found on boards like the Radxa Orion O6.

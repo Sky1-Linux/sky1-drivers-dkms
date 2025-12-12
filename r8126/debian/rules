@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+
+VERSION = 10.016.00
+DKMS_SRC = /usr/src/r8126-$(VERSION)
+
+%:
+	dh $@ --with dkms
+
+override_dh_auto_install:
+	install -d $(CURDIR)/debian/r8126-dkms$(DKMS_SRC)
+	cp -r src/* $(CURDIR)/debian/r8126-dkms$(DKMS_SRC)/
+
+override_dh_dkms:
+	dh_dkms -V $(VERSION)
