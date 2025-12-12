@@ -1,8 +1,8 @@
-sky1-npu-dkms (1.0.0-2) unstable; urgency=medium
+sky1-npu-dkms (1.0.0-2) UNRELEASED; urgency=medium
 
   * Add hardware documentation (30 TOPS Zhouyi V3)
 
- -- Entrpi <entrpi@proton.me>  Fri, 13 Dec 2025 00:30:00 +0800
+ -- Entrpi <radxa@orion-o6>  Fri, 12 Dec 2025 22:52:43 +0800
 
 sky1-npu-dkms (1.0.0-1) unstable; urgency=medium
 

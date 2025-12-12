@@ -16,11 +16,11 @@ Changes:
    * Initial release for Sky1 Linux
    * ARM China Zhouyi AIPU driver
 Checksums-Sha1:
- 95220241197720d71311c9c954b3eb48965aaf71 68992 sky1-npu-dkms_1.0.0-1_all.deb
- 43638a55af2a4ab5fb3a6b3b00a58725e5440d1c 5714 sky1-npu-dkms_1.0.0-1_arm64.buildinfo
+ 7c4d068539d6c451b4ebd8a6e77ca213bbb897f6 69092 sky1-npu-dkms_1.0.0-1_all.deb
+ fc1cdad037b546602b952841abcb61d0d174389e 5714 sky1-npu-dkms_1.0.0-1_arm64.buildinfo
 Checksums-Sha256:
- 0bfd45378aa0efd22f5640262ead12b7310a8538768fdca4b294bb566921f058 68992 sky1-npu-dkms_1.0.0-1_all.deb
- 8d16177867d6b836f85c79a9536a1a93fa57a2c3c735bcc176d3d3da528e1476 5714 sky1-npu-dkms_1.0.0-1_arm64.buildinfo
+ dec04bdfc8f9d834cf09c8a70b0161787ec5bdc88ccf03a8b5156a2ef9c9862f 69092 sky1-npu-dkms_1.0.0-1_all.deb
+ eec6f8b045547e46fe1af57e48252e7653679a5bf799e4f96a45e4b2048cbd4c 5714 sky1-npu-dkms_1.0.0-1_arm64.buildinfo
 Files:
- caba76fe0a90a47b9231b4d442d9b7f5 68992 kernel optional sky1-npu-dkms_1.0.0-1_all.deb
- 7cee98c67723ddcf92b39f741785306c 5714 kernel optional sky1-npu-dkms_1.0.0-1_arm64.buildinfo
+ a4a59c8a2d7307acc7938aa33bcd80c2 69092 kernel optional sky1-npu-dkms_1.0.0-1_all.deb
+ d7e1487fa8af885a6a56dbc59b820750 5714 kernel optional sky1-npu-dkms_1.0.0-1_arm64.buildinfo

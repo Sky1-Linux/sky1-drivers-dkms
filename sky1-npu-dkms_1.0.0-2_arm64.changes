@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Fri, 13 Dec 2025 00:30:00 +0800
+Source: sky1-npu-dkms
+Binary: sky1-npu-dkms
+Architecture: all
+Version: 1.0.0-2
+Distribution: unstable
+Urgency: medium
+Maintainer: Entrpi <entrpi@proton.me>
+Changed-By: Entrpi <entrpi@proton.me>
+Description:
+ sky1-npu-dkms - CIX Sky1 Neural Processing Unit driver (DKMS)
+Changes:
+ sky1-npu-dkms (1.0.0-2) unstable; urgency=medium
+ .
+   * Add hardware documentation (30 TOPS Zhouyi V3)
+Checksums-Sha1:
+ 90d4725b04c449f0eb935876837940f3222ed5cc 69180 sky1-npu-dkms_1.0.0-2_all.deb
+ 41bfe2e73ab4fec200f023c1071c2beced75b224 5714 sky1-npu-dkms_1.0.0-2_arm64.buildinfo
+Checksums-Sha256:
+ 694a8e69ac84f5b16832ff741b21b5f69977e4f1987c64c5283f503c2560a3d2 69180 sky1-npu-dkms_1.0.0-2_all.deb
+ 54744aca6d48e56881ed00eb9d0c16fd406961a33f5c4b561afc002c668c4d4c 5714 sky1-npu-dkms_1.0.0-2_arm64.buildinfo
+Files:
+ 526aec579ba56aedafb35c641e67c1ef 69180 kernel optional sky1-npu-dkms_1.0.0-2_all.deb
+ f7ee34b85070352588cc6a43e042dec6 5714 kernel optional sky1-npu-dkms_1.0.0-2_arm64.buildinfo

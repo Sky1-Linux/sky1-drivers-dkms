@@ -2,16 +2,16 @@ Format: 1.0
 Source: sky1-npu-dkms
 Binary: sky1-npu-dkms
 Architecture: all
-Version: 1.0.0-1
+Version: 1.0.0-2
 Checksums-Md5:
- a4a59c8a2d7307acc7938aa33bcd80c2 69092 sky1-npu-dkms_1.0.0-1_all.deb
+ 526aec579ba56aedafb35c641e67c1ef 69180 sky1-npu-dkms_1.0.0-2_all.deb
 Checksums-Sha1:
- 7c4d068539d6c451b4ebd8a6e77ca213bbb897f6 69092 sky1-npu-dkms_1.0.0-1_all.deb
+ 90d4725b04c449f0eb935876837940f3222ed5cc 69180 sky1-npu-dkms_1.0.0-2_all.deb
 Checksums-Sha256:
- dec04bdfc8f9d834cf09c8a70b0161787ec5bdc88ccf03a8b5156a2ef9c9862f 69092 sky1-npu-dkms_1.0.0-1_all.deb
+ 694a8e69ac84f5b16832ff741b21b5f69977e4f1987c64c5283f503c2560a3d2 69180 sky1-npu-dkms_1.0.0-2_all.deb
 Build-Origin: Debian
 Build-Architecture: arm64
-Build-Date: Fri, 12 Dec 2025 22:50:26 +0800
+Build-Date: Fri, 12 Dec 2025 22:55:42 +0800
 Build-Tainted-By:
  usr-local-has-configs
  usr-local-has-includes
@@ -200,4 +200,4 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=12"
  LANG="en_US.UTF-8"
  LC_ALL="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1765547100"
+ SOURCE_DATE_EPOCH="1765557000"

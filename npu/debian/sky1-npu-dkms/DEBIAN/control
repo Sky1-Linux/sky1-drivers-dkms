@@ -1,5 +1,5 @@
 Package: sky1-npu-dkms
-Version: 1.0.0-1
+Version: 1.0.0-2
 Architecture: all
 Maintainer: Entrpi <entrpi@proton.me>
 Installed-Size: 414
@@ -11,4 +11,7 @@ Description: CIX Sky1 Neural Processing Unit driver (DKMS)
  This package provides the AIPU (ARM China Zhouyi NPU) driver
  for the CIX Sky1 NPU using DKMS.
  .
- Provides hardware acceleration for neural network inference.
+ Hardware: ARM China Zhouyi V3 AIPU with 3 NPU cores
+ delivering 30 TOPS (INT8) neural network inference.
+ .
+ Features: DVFS, per-core power management, DMA buffer support.
