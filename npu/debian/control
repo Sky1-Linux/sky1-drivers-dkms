@@ -1,0 +1,16 @@
+Source: sky1-npu-dkms
+Section: kernel
+Priority: optional
+Maintainer: Entrpi <entrpi@proton.me>
+Build-Depends: debhelper-compat (= 13), dkms
+Standards-Version: 4.6.2
+Homepage: https://github.com/sky1-linux/sky1-drivers-dkms
+
+Package: sky1-npu-dkms
+Architecture: all
+Depends: ${misc:Depends}, dkms
+Description: CIX Sky1 Neural Processing Unit driver (DKMS)
+ This package provides the AIPU (ARM China Zhouyi NPU) driver
+ for the CIX Sky1 NPU using DKMS.
+ .
+ Provides hardware acceleration for neural network inference.

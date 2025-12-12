@@ -1,0 +1,6 @@
+sky1-vpu-dkms (1.0.0-1) unstable; urgency=medium
+
+  * Initial release for Sky1 Linux
+  * ARM Mali Video eXtension (AMVX) driver
+
+ -- Entrpi <entrpi@proton.me>  Thu, 12 Dec 2025 21:45:00 +0800
