@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Entrpi <entrpi@proton.me>
 Build-Depends: debhelper-compat (= 13), dkms
 Standards-Version: 4.6.2
-Homepage: https://github.com/sky1-linux/r8126-dkms
+Homepage: https://github.com/Sky1-Linux/sky1-drivers-dkms
 
 Package: r8126-dkms
 Architecture: all
