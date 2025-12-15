@@ -7,8 +7,8 @@ DKMS driver packages for CIX Sky1 SoC (Radxa Orion O6).
 | Driver | Package | Description |
 |--------|---------|-------------|
 | r8126 | r8126-dkms | Realtek RTL8126 5GbE Ethernet |
-| vpu | sky1-vpu-dkms | Video Processing Unit (planned) |
-| npu | sky1-npu-dkms | Neural Processing Unit (planned) |
+| vpu | sky1-vpu-dkms | ARM Linlon MVE v8 Video Processing Unit |
+| npu | sky1-npu-dkms | ARM Zhouyi V3 Neural Processing Unit (30 TOPS) |
 
 ## Building
 

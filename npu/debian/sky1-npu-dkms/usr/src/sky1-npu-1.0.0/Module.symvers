@@ -1,6 +1,0 @@
-0x00000000	armchina_aipu_probe	/home/radxa/cix-drivers-dkms/src/npu/driver/aipu	EXPORT_SYMBOL	
-0x00000000	armchina_aipu_remove	/home/radxa/cix-drivers-dkms/src/npu/driver/aipu	EXPORT_SYMBOL	
-0x00000000	armchina_aipu_suspend	/home/radxa/cix-drivers-dkms/src/npu/driver/aipu	EXPORT_SYMBOL	
-0x00000000	armchina_aipu_resume	/home/radxa/cix-drivers-dkms/src/npu/driver/aipu	EXPORT_SYMBOL	
-0x00000000	armchina_aipu_alloc_dma_buf	/home/radxa/cix-drivers-dkms/src/npu/driver/aipu	EXPORT_SYMBOL	
-0x00000000	armchina_aipu_free_dma_buf	/home/radxa/cix-drivers-dkms/src/npu/driver/aipu	EXPORT_SYMBOL	

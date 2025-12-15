@@ -1,0 +1,41 @@
+# Build output
+*.deb
+*.buildinfo
+*.changes
+*.dsc
+*.tar.*
+
+# Debian build artifacts
+debian/*.debhelper
+debian/.debhelper/
+debian/*.substvars
+debian/files
+debian/tmp/
+debian/*.log
+*/debian/*.debhelper
+*/debian/.debhelper/
+*/debian/*.substvars
+*/debian/files
+*/debian/tmp/
+*/debian/*.log
+*/debian/*.dch
+*/debian/*.dkms
+
+# Package build directories (duplicates of source)
+*/debian/sky1-*-dkms/
+
+# Kernel build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.order
+*.symvers
+.tmp_versions/
+
+# Editor/IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
