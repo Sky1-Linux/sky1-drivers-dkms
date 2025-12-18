@@ -337,6 +337,15 @@ static int queue_setup(struct vb2_queue *q,
         (port->width == 0 || port->height == 0))
         *buf_cnt = 1;
 
+    /*
+     * Chromium requests 2 buffers for OUTPUT queue when decoding VP8, VP9
+     * and AV1, but this is not enough for decoding. Enforce minimum of 8.
+     */
+    if (vport->dir == MVX_DIR_INPUT &&
+        !mvx_is_frame(port->format) &&
+        *buf_cnt < 8)
+        *buf_cnt = 8;
+
     memset(plane_size, 0, sizeof(plane_size[0]) * VB2_MAX_PLANES);
     *plane_cnt = port->nplanes;
     port_format_bpp = mvx_get_format_bpp(port->format);
