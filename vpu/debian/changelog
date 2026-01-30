@@ -1,3 +1,12 @@
+sky1-vpu-dkms (1.0.0-2) unstable; urgency=medium
+
+  * Fix AV1 hardware decoding in Chromium by enforcing minimum 8 OUTPUT
+    queue buffers. Chromium's V4L2 stateful decoder only requests 2
+    buffers for non-H.264 codecs, which deadlocks the AV1 decoder
+    pipeline.
+
+ -- Entrpi <entrpi@proton.me>  Fri, 30 Jan 2026 11:54:49 +1100
+
 sky1-vpu-dkms (1.0.0-1) unstable; urgency=medium
 
   * Initial release for Sky1 Linux
