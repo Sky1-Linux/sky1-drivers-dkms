@@ -1,32 +1,24 @@
-# sky1-drivers-dkms
+# sky1-drivers-dkms (Deprecated)
 
-DKMS driver packages for CIX Sky1 SoC (Radxa Orion O6).
+> **This repository is archived.** All drivers have been migrated into the
+> [linux-sky1](https://github.com/Sky1-Linux/linux-sky1) kernel patch set
+> as of 6.18.7-2 and are built in-tree. DKMS packages are no longer needed.
 
-## Drivers
+## Migration
 
-| Driver | Package | Description |
-|--------|---------|-------------|
-| r8126 | r8126-dkms | Realtek RTL8126 5GbE Ethernet |
-| vpu | sky1-vpu-dkms | ARM Linlon MVE v8 Video Processing Unit |
-| npu | sky1-npu-dkms | ARM Zhouyi V3 Neural Processing Unit (30 TOPS) |
+| Former DKMS Package | Replacement |
+|---------------------|-------------|
+| r8126-dkms | In-tree `drivers/net/ethernet/realtek/r8126/` |
+| sky1-vpu-dkms | In-tree `drivers/media/platform/cix/` (amvx) |
+| sky1-npu-dkms | In-tree `drivers/misc/armchina-npu/` |
 
-## Building
-
-```bash
-# Build r8126-dkms
-cd r8126
-dpkg-buildpackage -us -uc -b
-
-# Install
-sudo dpkg -i ../r8126-dkms_*.deb
-```
-
-## Installation from APT
+Users on kernel 6.18.7-sky1.2 or later can remove DKMS packages:
 
 ```bash
-# Add Sky1 Linux repository first, then:
-sudo apt install r8126-dkms
+sudo apt remove r8126-dkms sky1-vpu-dkms
 ```
+
+The in-tree drivers load automatically. No configuration changes needed.
 
 ## License
 

@@ -39,3 +39,12 @@ debian/*.log
 *~
 .vscode/
 .idea/
+# DKMS build artifacts
+*.o
+*.ko
+*.mod
+*.mod.c
+*.mod.o
+.*.cmd
+modules.order
+Module.symvers
